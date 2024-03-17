@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card-flex">
+        <div class="card" id="card1">
+            <div class="title">Fan</div>
+            <div class="text">Control The speed of the fan</div>
+            <img src="https://cdn-icons-png.flaticon.com/512/556/556878.png" alt="">
+            <div class="radio-input">
+                <label>
+                  <input value="value-0" name="value-radio" id="value-1" type="radio" checked="">
+                  <span>0</span>
+                  </label>
+                <label>
+                <input value="value-1" name="value-radio" id="value-1" type="radio" checked="">
+                <span>1</span>
+                </label>
+                <label>
+                  <input value="value-2" name="value-radio" id="value-2" type="radio">
+                <span>2</span>
+                </label>
+                <label>
+                  <input value="value-3" name="value-radio" id="value-3" type="radio">
+                <span>3</span>
+                </label>
+                <label>
+                  <input value="value-4" name="value-radio" id="value-3" type="radio">
+                <span>4</span>
+                </label>
+                <label>
+                  <input value="value-4" name="value-radio" id="value-3" type="radio">
+                <span>5</span>
+                </label>
+                <span class="selection"></span>
+              </div>
+        </div>
+        <div class="card" id="card2">
+            <div class="text">Turn on or off the bulb</div>
+            <div class="title">Bulb</div><img src="https://cdn-icons-png.flaticon.com/512/427/427735.png" alt="">
+            <label>
+                <input class="toggle-checkbox" type="checkbox">
+                <div class="toggle-slot">
+                  <div class="sun-icon-wrapper">
+                    <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                  </div>
+                  <div class="toggle-button"></div>
+                  <div class="moon-icon-wrapper">
+                    <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                  </div>
+                </div>
+              </label>
+        </div>
+        <div class="card" id="card3">
+            <div class="text">Control the color of the LED</div>
+            <div class="title">LED</div><img src="https://cdn-icons-png.flaticon.com/512/8534/8534359.png" alt="">
+        </div>
+        <div class="card" id="card4">
+            <div class="text">Control state and temp of AC</div>
+            <div class="title">Air Conditioner</div><img src="https://cdn-icons-png.flaticon.com/512/911/911409.png"
+                alt="">
+                <div class="content">
+                    <div class="switch-holder">
+                        <div class="switch-label">
+                            <i class="fa fa-bluetooth-b"></i><span>State :</span>
+                        </div>
+                        <div class="switch-toggle">
+                            <input type="checkbox" id="bluetooth">
+                            <label for="bluetooth"></label>
+                        </div>
+                    </div>
+                    <div class="temp">Temperature :  26&deg;C</div>
+                </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
